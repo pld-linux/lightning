@@ -9,6 +9,7 @@ Source0:	ftp://ftp.gnu.org/gnu/lightning/%{name}-%{version}.tar.gz
 # Source0-md5:	64aecdf3c4e67d15dd476cfac5d33acb
 Patch0:		%{name}-info.patch
 URL:		http://www.gnu.org/software/lightning/
+BuildRequires:	automake
 BuildRequires:	texinfo
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
