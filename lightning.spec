@@ -1,5 +1,5 @@
 Summary:	A library for dynamic code generation
-Summary(pl):	Biblioteka do dynamicznego generowania kodu
+Summary(pl.UTF-8):   Biblioteka do dynamicznego generowania kodu
 Name:		lightning
 Version:	1.2
 Release:	1
@@ -17,9 +17,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 GNU lightning is a library to aid in making portable programs that
 compile assembly code at run time.
 
-%description -l pl
-GNU lightning to biblioteka maj±ca pomagaæ w tworzeniu przeno¶nych
-programów kompiluj±cych kod w asemblerze w czasie wykonywania.
+%description -l pl.UTF-8
+GNU lightning to biblioteka majÄ…ca pomagaÄ‡ w tworzeniu przenoÅ›nych
+programÃ³w kompilujÄ…cych kod w asemblerze w czasie wykonywania.
 
 %prep
 %setup -q
