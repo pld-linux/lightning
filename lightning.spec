@@ -1,5 +1,5 @@
 Summary:	A library for dynamic code generation
-Summary(pl.UTF-8):   Biblioteka do dynamicznego generowania kodu
+Summary(pl.UTF-8):	Biblioteka do dynamicznego generowania kodu
 Name:		lightning
 Version:	1.2
 Release:	1
