@@ -5,7 +5,7 @@ Version:	1.2
 Release:	1
 License:	LGPL/GPL
 Group:		Development
-Source0:	ftp://ftp.gnu.org/gnu/lightning/%{name}-%{version}.tar.gz
+Source0:	http://ftp.gnu.org/gnu/lightning/%{name}-%{version}.tar.gz
 # Source0-md5:	dcd2c46ee4dd5d99edd9930022ad2153
 Patch0:		%{name}-info.patch
 URL:		http://www.gnu.org/software/lightning/
