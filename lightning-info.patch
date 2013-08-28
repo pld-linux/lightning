@@ -1,12 +1,14 @@
---- lightning-1.1/doc/body.texi.orig	2002-06-14 18:42:27.000000000 +0200
-+++ lightning-1.1/doc/body.texi	2003-07-26 22:32:17.000000000 +0200
-@@ -1,7 +1,7 @@
- @ifinfo
--@dircategory @lightning{}, a library for dynamic code generation
-+@dircategory Libraries:
- @direntry
--     * @value{TITLE}: (lightning).
-+* GNU lightning: (lightning).		A library for dynamic code generation
- @end direntry
+--- lightning-2.0.0/doc/lightning.texi.orig	2013-01-24 22:07:51.000000000 +0100
++++ lightning-2.0.0/doc/lightning.texi	2013-08-28 17:30:55.808994221 +0200
+@@ -3,6 +3,11 @@
  
- This file documents GNU lightning, Version @value{VERSION}.
+ @setfilename lightning.info
+ 
++@dircategory Libraries:
++@direntry
++* GNU lightning: (lightning).		A library for dynamic code generation
++@end direntry
++
+ @set TITLE       Using @sc{gnu} @i{lightning}
+ @set TOPIC       installing and using
+ 
