@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_with	disassembler		# jit disassembler using binutils
+
 Summary:	A library for dynamic code generation
 Summary(pl.UTF-8):	Biblioteka do dynamicznego generowania kodu
 Name:		lightning
@@ -9,7 +13,8 @@ Source0:	https://ftp.gnu.org/gnu/lightning/%{name}-%{version}.tar.gz
 # Source0-md5:	61252681bd19002f45d42f436aa69180
 Patch0:		%{name}-info.patch
 URL:		http://www.gnu.org/software/lightning/
-BuildRequires:	binutils-devel
+%{?with_disassembler:BuildRequires:	binutils-devel}
+BuildRequires:	rpmbuild(macros) >= 1.527
 BuildRequires:	texinfo
 BuildRequires:	zlib-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -51,7 +56,8 @@ Statyczna biblioteka GNU lightning.
 %patch0 -p1
 
 %build
-%configure
+%configure \
+	%{__enable_disable disassembler}
 
 %{__make}
 
