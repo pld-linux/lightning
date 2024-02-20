@@ -1,16 +1,16 @@
 #
 # Conditional build:
-%bcond_without	disassembler		# jit disassembler using binutils
+%bcond_without	disassembler	# jit disassembler using binutils
 
 Summary:	A library for dynamic code generation
 Summary(pl.UTF-8):	Biblioteka do dynamicznego generowania kodu
 Name:		lightning
-Version:	2.2.2
-Release:	3
+Version:	2.2.3
+Release:	1
 License:	LGPL v3+
 Group:		Libraries
 Source0:	https://ftp.gnu.org/gnu/lightning/%{name}-%{version}.tar.gz
-# Source0-md5:	7bc18231c6e166e81353653a5bd2aeda
+# Source0-md5:	46889d97921419d7bb79467340f9c8db
 Patch0:		%{name}-info.patch
 URL:		http://www.gnu.org/software/lightning/
 %{?with_disassembler:BuildRequires:	binutils-devel}
