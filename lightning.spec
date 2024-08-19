@@ -6,7 +6,7 @@ Summary:	A library for dynamic code generation
 Summary(pl.UTF-8):	Biblioteka do dynamicznego generowania kodu
 Name:		lightning
 Version:	2.2.3
-Release:	2
+Release:	3
 License:	LGPL v3+
 Group:		Libraries
 Source0:	https://ftp.gnu.org/gnu/lightning/%{name}-%{version}.tar.gz
